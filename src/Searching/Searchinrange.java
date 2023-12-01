@@ -12,8 +12,7 @@ public class Searchinrange {
         int end = input.nextInt();
         System.out.println("Enter target ");
         int target = input.nextInt();
-        int result = SearchInRange(array,start,end,target);
-        System.out.println(result);
+        System.out.println(SearchInRange(array,start,end,target));
 
 
     }
