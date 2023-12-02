@@ -2,7 +2,7 @@ package Questions;
 
 public class Q1 {
     public static void main(String[] args) {
-        //Find number in even number of digits  Leetcode 1295
+        //Find how many numbers are there contains even number of digits
         int[] nums = {12,234,123,3,2344,2,244};
         System.out.println(findNumbers(nums));
     }
